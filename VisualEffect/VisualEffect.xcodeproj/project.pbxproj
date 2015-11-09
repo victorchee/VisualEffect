@@ -12,6 +12,7 @@
 		BBE20F4C1BF03F4000880420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBE20F4A1BF03F4000880420 /* Main.storyboard */; };
 		BBE20F4E1BF03F4000880420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE20F4D1BF03F4000880420 /* Assets.xcassets */; };
 		BBE20F511BF03F4000880420 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBE20F4F1BF03F4000880420 /* LaunchScreen.storyboard */; };
+		BBE20F591BF073DD00880420 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE20F581BF073DD00880420 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BBE20F4D1BF03F4000880420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBE20F501BF03F4000880420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBE20F521BF03F4000880420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBE20F581BF073DD00880420 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				BBE20F461BF03F4000880420 /* AppDelegate.swift */,
 				BBE20F481BF03F4000880420 /* ViewController.swift */,
+				BBE20F581BF073DD00880420 /* TableViewController.swift */,
 				BBE20F4A1BF03F4000880420 /* Main.storyboard */,
 				BBE20F4D1BF03F4000880420 /* Assets.xcassets */,
 				BBE20F4F1BF03F4000880420 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBE20F491BF03F4000880420 /* ViewController.swift in Sources */,
+				BBE20F591BF073DD00880420 /* TableViewController.swift in Sources */,
 				BBE20F471BF03F4000880420 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +290,7 @@
 				BBE20F571BF03F4000880420 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
